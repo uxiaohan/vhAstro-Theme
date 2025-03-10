@@ -8,12 +8,12 @@ export default {
   Avatar: 'https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640',
   // 导航栏 (新窗口打开 newWindow: true)
   Navs: [
-    { text: '朋友', link: '/links', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/links.svg' },
-    { text: '圈子', link: '/friends', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/friends.svg' },
-    { text: '动态', link: '/talking', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/talking.svg' },
-    { text: '昔日', link: '/archives', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/archives.svg' },
-    { text: '留言', link: '/message', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/message.svg' },
-    { text: '关于', link: '/about', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/about.svg' },
+    { text: '朋友', link: import.meta.env.VITE_BASE_URL+'/links', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/links.svg' },
+    { text: '圈子', link: import.meta.env.VITE_BASE_URL+'/friends', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/friends.svg' },
+    { text: '动态', link: import.meta.env.VITE_BASE_URL+'/talking', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/talking.svg' },
+    { text: '昔日', link: import.meta.env.VITE_BASE_URL+'/archives', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/archives.svg' },
+    { text: '留言', link: import.meta.env.VITE_BASE_URL+'/message', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/message.svg' },
+    { text: '关于', link: import.meta.env.VITE_BASE_URL+'/about', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/about.svg' },
     { text: 'API', link: 'https://api.vvhan.com/', target: true, icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/link.svg' },
   ],
   // 侧边栏个人网站
