@@ -15,6 +15,9 @@ import swup from '@swup/astro';
 export default defineConfig({
 	site: 'https://www.vvhan.com',
 	base: '/vhAstro-Theme',
+	build:{
+		assets: 'astro-vvvvv'
+	},
 	integrations: [
 		swup({
 			theme: false,
