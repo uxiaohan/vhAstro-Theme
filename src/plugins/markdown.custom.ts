@@ -56,7 +56,7 @@ const addClassNames = () => {
         // 添加 class 和 loading 属性
         node.properties.class = 'vh-article-img';
         node.properties['data-vh-lz-src'] = node.properties.src;
-        node.properties.src = '/assets/images/lazy-loading.webp';
+        node.properties.src = import.meta.env.VITE_BASE_URL+'/assets/images/lazy-loading.webp';
         // 处理 section 标签
       } else if (node.tagName === 'section') {
         if (node.properties.class && node.properties.class.includes('vh-vhVideo')) {

@@ -8,24 +8,24 @@ export default {
   Avatar: 'https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640',
   // 导航栏 (新窗口打开 newWindow: true)
   Navs: [
-    { text: '朋友', link: '/links', icon: '/assets/images/svg/Navs/links.svg' },
-    { text: '圈子', link: '/friends', icon: '/assets/images/svg/Navs/friends.svg' },
-    { text: '动态', link: '/talking', icon: '/assets/images/svg/Navs/talking.svg' },
-    { text: '昔日', link: '/archives', icon: '/assets/images/svg/Navs/archives.svg' },
-    { text: '留言', link: '/message', icon: '/assets/images/svg/Navs/message.svg' },
-    { text: '关于', link: '/about', icon: '/assets/images/svg/Navs/about.svg' },
-    { text: 'API', link: 'https://api.vvhan.com/', target: true, icon: '/assets/images/svg/Navs/link.svg' },
+    { text: '朋友', link: '/links', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/links.svg' },
+    { text: '圈子', link: '/friends', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/friends.svg' },
+    { text: '动态', link: '/talking', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/talking.svg' },
+    { text: '昔日', link: '/archives', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/archives.svg' },
+    { text: '留言', link: '/message', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/message.svg' },
+    { text: '关于', link: '/about', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/about.svg' },
+    { text: 'API', link: 'https://api.vvhan.com/', target: true, icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/Navs/link.svg' },
   ],
   // 侧边栏个人网站
   WebSites: [
-    { text: 'Github', link: 'https://github.com/uxiaohan', icon: '/assets/images/svg/WebSites/github.svg' },
-    { text: '韩小韩API', link: 'https://api.vvhan.com', icon: '/assets/images/svg/WebSites/api.svg' },
-    { text: '每日热榜', link: 'https://hot.vvhan.com', icon: '/assets/images/svg/WebSites/hot.svg' },
-    { text: '骤雨重山图床', link: 'https://wp-cdn.4ce.cn', icon: '/assets/images/svg/WebSites/img.svg' },
-    { text: 'HanAnalytics', link: 'https://analytics.vvhan.com', icon: '/assets/images/svg/WebSites/analytics.svg' },
+    { text: 'Github', link: 'https://github.com/uxiaohan', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/WebSites/github.svg' },
+    { text: '韩小韩API', link: 'https://api.vvhan.com', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/WebSites/api.svg' },
+    { text: '每日热榜', link: 'https://hot.vvhan.com', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/WebSites/hot.svg' },
+    { text: '骤雨重山图床', link: 'https://wp-cdn.4ce.cn', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/WebSites/img.svg' },
+    { text: 'HanAnalytics', link: 'https://analytics.vvhan.com', icon: import.meta.env.VITE_BASE_URL+'/assets/images/svg/WebSites/analytics.svg' },
   ],
   // Cover 使用绝对路径
-  Cover: '/assets/images/banner/072c12ec85d2d3b5.webp',
+  Cover: import.meta.env.VITE_BASE_URL+'/assets/images/banner/072c12ec85d2d3b5.webp',
   CreateTime: '2021-09-01',
   // DNS预解析地址
   DNSOptimization: [

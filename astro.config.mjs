@@ -3,6 +3,7 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 import Compress from "@playform/compress";
+import { loadEnv } from 'vite'
 // Markdown 配置================
 import remarkMath from "remark-math";
 import rehypeSlug from "rehype-slug";
@@ -11,10 +12,13 @@ import remarkDirective from "remark-directive";
 import { remarkNote, addClassNames } from './src/plugins/markdown.custom'
 // Markdown 配置================
 import swup from '@swup/astro';
+
+const {VITE_BASE_URL} = loadEnv(process.env.NODE_ENV, process.cwd(), "");
+
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://www.vvhan.com',
-	base: '/vhAstro-Theme',
+	base: VITE_BASE_URL,
 	integrations: [
 		swup({
 			theme: false,
