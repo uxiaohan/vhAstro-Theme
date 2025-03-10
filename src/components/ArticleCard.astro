@@ -12,7 +12,7 @@ import "../styles/components/ArticleCard.less";
 ---
 
 <article class="vh-article-item vh-animation vh-animation-init">
-	<a class={`vh-article-link${post.data.top ? " active" : ""}`} href={`/article/${post.data.id}`}>
+	<a class={`vh-article-link${post.data.top ? " active" : ""}`} href={`${import.meta.env.VITE_BASE_URL}/article/${post.data.id}`}>
 		<section class="vh-article-banner"><Image src="/assets/images/lazy-loading.webp" data-vh-lz-src={ARTICLE_COVER} alt={post.data.title} width="10" height="10" /></section>
 		<section class="vh-article-desc">
 			<header>

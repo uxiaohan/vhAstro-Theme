@@ -16,7 +16,7 @@ import "../styles/Archive.less";
 						<span>{i.data.length}篇文章</span>
 					</p>
 					{i.data.map((_: any) => (
-						<a href={`/article/${_.id}`}>
+						<a href={`${import.meta.env.VITE_BASE_URL}/article/${_.id}`}>
 							<em>{fmtTime(_.date, "MM-DD")}</em>
 							<i />
 							<span>{_.title}</span>

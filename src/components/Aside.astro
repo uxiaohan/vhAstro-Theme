@@ -45,7 +45,7 @@ import "../styles/components/Aside.less";
 				categories
 					.sort((a: any, b: any) => b.count - a.count)
 					.map(i => (
-						<a href={`/categories/${i.title}`}>
+						<a href={`${import.meta.env.VITE_BASE_URL}/categories/${i.title}`}>
 							<span>{i.title}</span>
 							<i>{i.count}</i>
 						</a>
@@ -60,7 +60,7 @@ import "../styles/components/Aside.less";
 		<div class="vh-aside-tags">
 			{
 				tags.map(i => (
-					<a href={`/tag/${i}`}>
+					<a href={`${import.meta.env.VITE_BASE_URL}/tag/${i}`}>
 						<span>{i}</span>
 					</a>
 				))
@@ -76,7 +76,7 @@ import "../styles/components/Aside.less";
 					<h3>推荐文章</h3>
 					<div class="vh-aside-articles">
 						{recommendArticles.map(async i => (
-							<a href={`/article/${(await i).id}`}>
+							<a href={`${import.meta.env.VITE_BASE_URL}/article/${(await i).id}`}>
 								<p class="cover">
 									<Image src="/assets/images/lazy-loading.webp" data-vh-lz-src={(await i).cover} alt={(await i).title} width="1" height="1" />
 								</p>
