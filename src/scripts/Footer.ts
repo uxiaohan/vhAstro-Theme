@@ -4,4 +4,4 @@ import { fmtDate } from "../utils/index";
 import SITE_CONFIG from "../config";
 const { CreateTime } = SITE_CONFIG;
 // 初始化 网站运行时间
-export default () => (document.querySelector("em.web_time")!.textContent = fmtDate(CreateTime))
+export default () => {}

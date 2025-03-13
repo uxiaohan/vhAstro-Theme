@@ -10,8 +10,9 @@ tags:
 id: "astro-theme-vhastro-theme"
 date: 2025-03-02 18:18:18
 cover: "https://i0.wp.com/uxiaohan.github.io/v2/2025/03/1740977096666.webp"
-recommend: true
+recommend: false
 top: true
+hide: true
 ---
 
 :::note{type="success"}
@@ -118,7 +119,7 @@ export default {
 		{
 			name: "韩小韩博客",
 			link: "https://www.vvhan.com",
-			avatar: "https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640",
+			avatar: "https://q1.qlogo.cn/g?b=qq&nk=826861827&s=640",
 			descr: "运气是计划之外的东西."
 		},
 		{
@@ -144,7 +145,7 @@ export default {
 		{
 			date: "2025-02-12 19:36:16",
 			tags: ["树", "夕阳"],
-			content: '好美🌲<p class="vh-img-flex"><img src="https://i0.wp.com/shp.qpic.cn/collector/1655466387/937ec070-8448-4c7b-9c8b-abd41ce892cb/0"></p>'
+			content: '好美🌲<p class="vh-img-flex"><img src="https://i0.wp.com/shp.qpic.cn/collector/826861827/937ec070-8448-4c7b-9c8b-abd41ce892cb/0"></p>'
 		},
 		{
 			date: "2024-10-05 16:16:06",

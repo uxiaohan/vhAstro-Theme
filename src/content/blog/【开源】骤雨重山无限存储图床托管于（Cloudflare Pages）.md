@@ -10,7 +10,8 @@ tags:
 
 id: "zycs-img-cloud-from-cloudflare-pages"
 cover: "https://i0.wp.com/uxiaohan.github.io/v2/2024/07/1721643791.png"
-recommend: true
+recommend: false
+hide: true
 ---
 
 :::note

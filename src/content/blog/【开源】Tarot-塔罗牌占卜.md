@@ -9,6 +9,7 @@ tags:
 id: kaiyuan-tarot
 cover: https://i0.wp.com/uxiaohan.github.io/v2/2024/12/1733449691.png
 date: 2024-12-06 09:37:11
+hide: true
 ---
 
 :::note
