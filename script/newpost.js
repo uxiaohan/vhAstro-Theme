@@ -19,7 +19,7 @@ tags:
   - 标签
 id: "${articleID.slice(0, 16)}"
 date: ${dayjs().format('YYYY-MM-DD HH:mm:ss')}
-cover: "封面图URL (为空默认随机内置封面 /public/assets/images/banner)"
+cover: ""
 ---
 
 :::note
@@ -27,6 +27,8 @@ cover: "封面图URL (为空默认随机内置封面 /public/assets/images/banne
 :::
 
 ### 标题1
+
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Nicholas003.blog.${articleID.slice(0, 16)}&format=true)
 
 ::btn[按钮]{link="链接" type="info"}`;
 const init = async () => {
