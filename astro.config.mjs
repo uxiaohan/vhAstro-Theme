@@ -17,7 +17,7 @@ const {VITE_BASE_URL} = loadEnv(process.env.NODE_ENV, process.cwd(), "");
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://www.vvhan.com',
+	site: 'http://blog.800800.top',
 	base: VITE_BASE_URL,
 	integrations: [
 		swup({
