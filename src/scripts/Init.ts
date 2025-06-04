@@ -80,7 +80,7 @@ const indexInit = async (only: boolean = true) => {
   // Han Analytics 统计
   HanAnalyticsInit();
   // 打字效果
-  only && TypeWriteInit();
+  only && Array.isArray(SITE_INFO.TypeWriteList) && SITE_INFO.TypeWriteList.length > 0 && TypeWriteInit();
   // 泡泡🫧效果
   PaoPaoInit();
   // 预加载搜索数据

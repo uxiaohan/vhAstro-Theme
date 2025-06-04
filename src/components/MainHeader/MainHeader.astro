@@ -8,5 +8,7 @@ import "./MainHeader.less";
 		<img src="/assets/images/lazy-loading.webp" data-vh-lz-src={SITE_INFO.Avatar} alt="avatar" />
 	</div>
 	<h3 class="auther">{SITE_INFO.Author || "-"}</h3>
+{Array.isArray(SITE_INFO.TypeWriteList) && SITE_INFO.TypeWriteList.length > 0 && (
 	<p class="desc"></p>
+)}
 </div>

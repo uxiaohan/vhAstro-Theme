@@ -3,6 +3,8 @@ export default () => {
   const writeDom = document.querySelector('.header-main>.desc');
   if (!writeDom) return;
   const TypeWriteList = SITE_INFO.TypeWriteList;
+  // 如果 TypeWriteList 不是数组或没有内容则不执行动画
+  if (!Array.isArray(TypeWriteList) || TypeWriteList.length === 0) return;
   let TypeWriteListIndex = 0;
   let index = 0;
   let isDeleting = false;
